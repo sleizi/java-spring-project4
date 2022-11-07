@@ -1,38 +1,6 @@
-2022-11-07T17:05:32.510+0700 INFO Starting SareetaApplication on DESKTOP-I1AC3RQ with PID 1960 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4)
-2022-11-07T17:05:32.522+0700 INFO No active profile set, falling back to default profiles: default
-2022-11-07T17:05:39.050+0700 INFO Started SareetaApplication in 8.065 seconds (JVM running for 14.699)
-2022-11-07T17:05:39.058+0700 INFO Application started at 2022-11-07T17:05:39.058
-2022-11-07T17:06:32.617+0700 INFO UserId 1 created
-2022-11-07T17:07:55.111+0700 INFO Starting SareetaApplication on DESKTOP-I1AC3RQ with PID 5384 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4)
-2022-11-07T17:07:55.126+0700 INFO No active profile set, falling back to default profiles: default
-2022-11-07T17:08:03.565+0700 INFO Started SareetaApplication in 9.171 seconds (JVM running for 14.234)
-2022-11-07T17:08:03.578+0700 INFO Application started at 2022-11-07T17:08:03.578
-2022-11-07T17:08:19.327+0700 INFO UserId 1 created
-2022-11-07T17:16:45.010+0700 INFO Starting SareetaApplication on DESKTOP-I1AC3RQ with PID 1420 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4)
-2022-11-07T17:16:45.023+0700 INFO No active profile set, falling back to default profiles: default
-2022-11-07T17:16:52.873+0700 INFO Started SareetaApplication in 10.187 seconds (JVM running for 15.609)
-2022-11-07T17:16:52.880+0700 INFO Application started at 2022-11-07T17:16:52.880
-2022-11-07T17:16:59.347+0700 INFO UserId 1 created
-2022-11-07T17:17:03.623+0700 ERROR could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
-insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
-2022-11-07T17:17:37.285+0700 ERROR could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
-insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
-2022-11-07T17:20:24.539+0700 ERROR could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
-insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
-2022-11-07T17:20:43.074+0700 INFO UserId 5 created
-2022-11-07T17:27:52.922+0700 INFO Starting SareetaApplication on DESKTOP-I1AC3RQ with PID 17788 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4)
-2022-11-07T17:27:52.937+0700 INFO No active profile set, falling back to default profiles: default
-2022-11-07T17:28:06.419+0700 INFO Started SareetaApplication in 15.106 seconds (JVM running for 25.578)
-2022-11-07T17:28:06.433+0700 INFO Application started at 2022-11-07T17:28:06.433
-2022-11-07T17:28:30.016+0700 INFO UserId 1 created
-2022-11-07T17:30:28.852+0700 INFO UserId 2 created
-2022-11-07T17:33:38.841+0700 INFO Starting SareetaApplication on DESKTOP-I1AC3RQ with PID 14448 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4)
-2022-11-07T17:33:38.862+0700 INFO No active profile set, falling back to default profiles: default
-2022-11-07T17:33:45.232+0700 INFO Started SareetaApplication in 7.277 seconds (JVM running for 13.677)
-2022-11-07T17:33:45.247+0700 INFO Application started at 2022-11-07T17:33:45.247
-2022-11-07T17:34:06.851+0700 INFO UserId 1 created
-2022-11-07T17:36:06.812+0700 INFO OrderId 1 created for user username
-2022-11-07T17:37:19.957+0700 ERROR could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
-insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
-2022-11-07T17:37:27.375+0700 ERROR User username2 not found
-2022-11-07T17:37:31.345+0700 INFO OrderId 2 created for user username
+2022-11-07T18:23:22.873+0700 INFO Starting SareetaApplication on DESKTOP-I1AC3RQ with PID 9604 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4)
+2022-11-07T18:23:22.886+0700 INFO No active profile set, falling back to default profiles: default
+2022-11-07T18:23:31.449+0700 INFO Started SareetaApplication in 10.721 seconds (JVM running for 17.734)
+2022-11-07T18:23:31.458+0700 INFO Application started at 2022-11-07T18:23:31.458
+2022-11-07T18:24:01.015+0700 INFO UserId 1 created
+2022-11-07T18:24:19.612+0700 INFO OrderId 1 created for user username

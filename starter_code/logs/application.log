@@ -1,0 +1,8 @@
+2022-11-07T20:55:24.133+0700 ERROR User username not found
+2022-11-07T20:55:24.145+0700 INFO OrderId 1 created for user username
+2022-11-07T20:55:24.160+0700 ERROR User user_not_found not found
+2022-11-07T20:55:24.368+0700 ERROR User creation failed
+2022-11-07T20:55:24.381+0700 INFO UserId 0 created
+2022-11-07T20:55:26.323+0700 INFO Starting SareetaApplicationTests on DESKTOP-I1AC3RQ with PID 18784 (started by XuanTu in D:\01. FSOFT LOCAL\0. UDACITY\Java Spring\java-spring-project4\starter_code)
+2022-11-07T20:55:26.325+0700 INFO No active profile set, falling back to default profiles: default
+2022-11-07T20:55:52.074+0700 INFO Started SareetaApplicationTests in 26.848 seconds (JVM running for 41.869)
