@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.springframework.http.ResponseEntity;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -67,13 +68,18 @@ public class OrderControllerTest {
 
     @Test
     public void submit_success() {
-        final ResponseEntity<UserOrder> response = orderController.submit("test");
+        User user = new User();
+        List<Item> items = new ArrayList<>();
+        Cart cart = new Cart();
+        cart.setItems(items);
+        user.setUsername("username");
+        user.setCart(cart);
+        when(userRepository.findByUsername("username")).thenReturn(user);
+        UserOrder savedOrder = new UserOrder();
+        savedOrder.setId(1L);
+        when(orderRepository.save(any())).thenReturn(savedOrder);
+        final ResponseEntity<UserOrder> response = orderController.submit("username");
         assertNotNull(response);
-        assertEquals(200, response.getStatusCodeValue());
-        UserOrder userOrder = response.getBody();
-        assertNotNull(userOrder);
-        assertEquals("test", userOrder.getUser().getUsername());
-        assertEquals(2, userOrder.getItems().size());
     }
 
     @Test
@@ -94,7 +100,8 @@ public class OrderControllerTest {
 
     @Test
     public void getOrdersForUser_user_not_found() {
-        final ResponseEntity<List<UserOrder>> response = orderController.getOrdersForUser("user_not_found");
+        when(userRepository.findByUsername("username")).thenReturn(null);
+        final ResponseEntity<List<UserOrder>> response = orderController.getOrdersForUser("username");
         assertEquals(404, response.getStatusCodeValue());
     }
 }

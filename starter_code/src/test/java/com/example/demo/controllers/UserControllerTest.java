@@ -14,6 +14,7 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -39,7 +40,8 @@ public class UserControllerTest {
         request.setUsername("test");
         request.setPassword("testPassword");
         request.setConfirmPassword("testPassword");
-
+        User savedUser = new User();
+        when(userRepository.save(any())).thenReturn(savedUser);
         final ResponseEntity<User> response = userController.createUser(request);
 
         assertNotNull(response);
